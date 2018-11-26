@@ -1,4 +1,4 @@
-const Token = "`\`\` التوكن `\`\`"
+const Token = "NTA5MDk3NTE1OTM3OTU1ODUx.Dt1GLQ.d33eDDEyTFYXCJ2KveOphypvG-o"
 
 const Discord = require("discord.js");
 const client = new Discord.Client();
